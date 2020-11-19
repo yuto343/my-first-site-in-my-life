@@ -1,0 +1,599 @@
+body{text-align:center;margin:0px;background:#330e04;}
+.otherbody{background-image:url(_1080555.jpg);background-size:cover;}
+ul,h2 {font-family: 'Montserrat', sans-serif;}
+.clearfix::after{content:'';display:block;clear:both;}
+	.toph1 {font-size:60px;margin-top:130px;margin-bottom:0px;}
+	.main {width:auto;height:500px;margin:0px;color:white;}
+	.main p{padding-left:60px;padding-right:60px;margin-top:0px;}
+	.background-picture{margin:0px;background:url(_1080355.jpg);}
+	.topmap{margin:0px;}
+	.topmap ul{white-space:nowrap;width:auto;border-bottom:solid 1px orange;margin:0px;padding-left:0px;}
+	.topmap ul li	{list-style:none;width:20%;float:left;}
+	.topmap ul:after{content:"";display:block;clear:both;}
+	.topmap ul li a{text-decoration: none;color:orange;display:block;padding:20px;margin-right:auto;margin-left:auto;}
+	.topmap ul li a:hover{color:gray;border:solid 1px orange;}
+	.topp{padding-top:70px;letter-spacing:7px;line-height:2;font-size:20px;}
+	@media(max-width:768px){.topp{font-size:16px;}}
+	.syoukai h2,.main3 h2{color:gray;font-size:40px;margin:0px;border-left;letter-spacing:2px;display:inline;padding:0 5px;}
+	.counter-1f-title h2{background:#170028;color:orange;padding:20px;position:relative;right:-150px;top:50px;}
+	@media(max-width:768px){.counter-1f-title h2{position:static;display:block;font-size:20px;}}
+	.counter{
+		background:white;
+		padding:10px;
+		width:auto;
+		margin:30px 200px;
+		width:900px;	}
+@media(max-width:768px){.counter{margin:0px;width:auto;}}		
+	.counter-left{width:450px;float:left;margin-top:30px;height:100%;}
+@media(max-width:768px){.counter-left{margin-top:0px;width:100%;float:none;}}
+@media(max-width:768px){.counter-left img{width:300px;margin:0px auto;}}	
+	.counter-right{width:430px;
+		padding-top:20px;
+		margin-left:20px;
+		;float:left;
+		margin-top:30px;
+		height:300px;
+		border-left:solid 5px #170028;
+		box-sizing:border-box;}
+@media(max-width:768px){.counter-right{height:auto;float:none;margin:0px;border:none;width:auto;}}		
+	.sekisuu{
+		top:-3px;
+		position:relative;
+		float:left;
+		padding:10px 30px;
+		font-size:1.2rem;
+		letter-spacing:10px;
+		font-family:'Montserrat';
+		margin-left:10px;
+		background:#170028;
+		color:white;
+		width:60px;
+		text-align:center;}
+	.ninnzuu{
+		letter-spacing:5px;
+		margin-left:20px;
+		float:left;
+		font-family:'Montserrat';
+		font-size:2rem;
+
+	}	
+
+	.counter-right .counterp {
+		line-height:2;
+		letter-spacing:1px;
+		padding-left:10px;
+		border-bottom:solid 5px #170028;
+		font-family: 'Montserrat';
+		position:relative;
+		top:-16px;
+		display:block;
+		height:200px;
+		font-size:20px;}
+@media(max-width:768px){.counter-right .counterp{margin-bottom:20px;height:auto;padding:0px;text-align:center;position:static;line-height:1;font-size:15px;}}		
+	.img1fcounter{}
+	.main2wrap{
+		overflow-y:auto;
+		max-height:300px;
+	}
+
+	.main2{
+		padding-left:0px;
+		margin-right:auto;
+		margin-left:auto;
+		width:900px;
+		height:100%;
+
+		}
+		@media(max-width:768px){.main2{margin:20px 0;width:100%;}}
+	.titleh2{
+		top:10px;
+		position:relative;
+		margin-top:0px;
+		letter-spacing:10px;
+		background:#170028;
+		color:orange;
+		font-family: 'Julius Sans One';
+		padding:10px;
+		font-size:3rem;
+	}
+	@media(max-width:768px){.titleh2{font-size:2.5rem;}}
+
+	.scroll-item{
+		margin-bottom:30px;
+		padding:20px;
+		width:100%;
+		background:white;
+		list-style:none;
+	}
+	@media(max-width:768px){.scroll-item{padding:0px;margin-left:10px;margin-right:10px;width:auto;}}
+	
+	.date{position:relative;
+		right:430px;
+		top:-20px;
+		letter-spacing:2px;
+		padding:10px 20px;
+		color:white;
+		background:#170028;
+		border:solid 1px black;
+		text-align:left;
+
+	}
+	@media(max-width:768px){.date{right: 0px;top: -10px;padding: 3px 5px;}}
+	.nakamiwrap{}
+
+	.category{
+		top:6px;
+		right:16px;
+		position:relative;
+		letter-spacing:5px;
+		padding:4px;
+		color:orange;
+		background:#170028;
+		float:left;
+		width:100px;
+		box-sizing:border-box;
+	}
+	@media(max-width:768px){.category{float:none;position:static;display:block;width:auto;margin-bottom:10px;}}
+	.nakami{
+		right:10px;
+		position:relative;
+		padding-left:15px;
+		text-align:left;
+		float:left;
+		border-left:solid 3px #c9c4c3;
+		width:800px;
+		box-sizing:border-box;}
+	@media(max-width:768px){.nakami{
+		float:none;
+		width:auto;
+		position:static;
+		padding-left:0px;
+		border:none;
+		position:static;
+		display:inline;
+		font-size:15px;
+		}}	
+	.syoukai{width:auto;
+		border-radius:1px;
+		text-align:left;
+		margin:30px;
+		padding-left:7px;
+}
+@media(max-width:768px){.syoukai{margin:0px;padding:0px;}}
+.osusumetable{
+	padding-left:0px;
+	width:auto;
+	margin-left:40px;
+	margin-right:40px;
+	height:350px;
+}
+@media(max-width:768px){.osusumetable{margin:0px;}}
+
+.osusume-item{
+	margin:0 10px;
+	border:solid 1px black;
+	box-sizing:border-box;
+	float:left;
+	list-style:none;
+	width:320px;
+	height:350px;
+	background:white;
+}
+@media(max-width:768px){.osusume-item{float:none;margin:20px auto;}}
+.osusumeimage{
+	margin-top:8px;
+	margin-right:auto;
+	margin-left:auto;
+	background:gray;
+	height:200px;
+	width:300px;}
+.osusumedetail{
+	border-top:solid 4px #170028;
+	margin-top:5px;
+	box-sizing:border-box;
+	margin-left:auto;
+	margin-right:auto;
+	width:300px;
+	height:135px;
+}	
+.osusumename{
+	background:blue;
+	float:left;
+	width:200px;
+	height:40px;
+}
+.osusumenedan{
+	background:yellow;
+	width:100px;
+	float:right;
+	height:40px;
+}
+.osusumesikaku{
+	background:#170028;
+	height:40px;
+	width:40px;
+	float:left;
+}
+.osusumename2{
+	float:right;
+	background:white;
+	width:160px;
+	height:40px;
+}
+.osusumename2 p{
+	position:relative;
+	top:-8px;
+}
+.osusumeicon{
+	font-size:1.8rem;
+	box-sizing:border-box;
+	height:40px;
+	width:40px;
+	border-right:solid 4px #170028;
+	border-left:solid 4px #170028;
+	border-bottom:solid 4px #170028;
+	float:left;
+}
+.osusumenedan2{
+	background:white;
+	float:right;
+	height:40px;
+	width:60px;
+}
+.osusumenedan2 p {
+	position:relative;
+	top:-6px;
+}
+.osusumesetumei{
+	position:relative;
+
+	top:30px;
+	height:80px;
+	width:300px;
+	background:whitesmoke;
+}
+.osusumesetumei p{font-size:0.8rem;}
+
+.insideview{position:relative;background:url(_1080380.jpg);height:300px;width:auto;}
+@media(max-width:768px){.insideview{height:150px;}}
+	.insideview span{position:absolute;bottom:0px;left:0px;color:orange;
+		font-size:150px;font-family: 'Julius Sans One', sans-serif;}
+@media(max-width:768px){.insideview span{font-size:3rem;}}		
+	.insideview img {width:100%;height:500px;padding:0;position:relative;}
+	.menu-top{width:100%;height:900px;background:url(_1080549.jpg)}
+/*ここからmenu*/	
+.button{
+	border:1px solid white;
+	color:white;
+	background:#170028;
+	margin:300px 50px auto 50px;
+	padding:20px;
+	width:400px;
+	letter-spacing:10px;
+	font-size:60px;
+	text-decoration:none;
+	display:inline-block;
+	font-family: 'Julius Sans One';}
+.button:hover{background:orange;transition:0.7s;}	
+@media(max-width:768px){.button{
+	font-size:40px;
+	letter-spacing:0px;
+	width:240px;
+	display:block;
+	margin:70px auto;
+	}}
+.table1-left{
+	color:orange;
+	margin-top:3px;
+	display:inline-block;
+	text-align:left;
+	list-style:none;
+	font-size:30px;
+	}
+	@media(max-width:768px){.table1-left{display:none;}}
+.table1-right{
+	color:white;
+	top:-6px;
+	position:relative;
+	margin-top:0px;
+	list-style:none;
+	display:inline-block;	
+	font-size:30px;
+}
+.table1-right span{display:none;margin-right:20px;color:orange;}
+@media(max-width:768px){.table1-right{font-size:20px;}}
+@media(max-width:768px){.table1-right span{display:inline-block}}
+.table1-right ul a{text-decoration:none;color:white;}
+.table1-right ul a:hover{color:blue;}
+.tablewrap{;margin-top:100px;margin-bottom:280px;}
+/*ここからアクセスマップ*/
+.accessmaptitle{
+	font-size:3rem;
+	padding:10px;
+	font-family: 'Julius Sans One';
+	color:orange;
+	background:#170028;
+}
+.accessmap{
+	max-width:900px;
+	margin-left:auto;
+	margin-right:auto;}
+.accessmapimg{
+	float:left;
+}
+@media(max-width:768px){.accessmapimg{
+	width:300px;
+	float:none;
+	}}
+.accessmaps{
+	height:300px;
+	width:500px;
+	float:left;
+}
+@media(max-width:768px){.accessmaps{
+	float:none;
+	}}
+@media(max-width:768px){.googlemap iframe{width:auto;}}	
+.accessmapsieiwrap{
+	margin-bottom:20px;
+	left:15px;
+	top:20px;
+	position:relative
+}
+.accessmapicon1{
+	border:solid 5px #170028;
+	box-sizing:border-box;
+	background:#3ace2d;
+	height:50px;
+	width:50px;
+	float:left; 
+}
+.accessmapicon2{
+	border:solid 5px #170028;
+	box-sizing:border-box;
+	background:#d12e2e;
+	height:50px;
+	width:50px;
+	float:left; 
+}
+.accessmapname1{
+	background:#170028;
+	box-sizing:border-box;
+	font-family: 'Julius Sans One';
+	color:white;
+	width:200px;
+	height:50px;
+	float:left;}
+	.accessmapname1 p{
+		color:orange;
+		font-size:1.2rem;
+		top:-8px;
+		position:relative;
+		text-decoration:none;
+		letter-spacing:5px;
+	}
+.accessmapsieidetail{
+	background:white;
+	letter-spacing:2px;
+	font-family: 'Julius Sans One';
+	color:black;
+	border:solid 5px #170028;
+	top:-5px;
+	position:relative;;
+	width:460px;
+	height:50px;
+}
+@media(max-width:768px){.accessmapsieidetail{
+	letter-spacing:0px;
+	width:300px;
+	height:auto;
+	}}
+.footer{
+	padding-bottom:10px;
+	font-family: 'Julius Sans One';
+	color:white;
+	background:#170028;
+	width:100%;
+	height:auto;
+}
+.footer ul{
+	padding-top:10px;
+	margin-right:30px;
+	text-align:right;
+	list-style:none;
+}
+.footer ul li{
+	margin:0 5px;
+	display:inline-block;}
+.footer ul li a{
+	color:white;
+	text-decoration:none;}
+.footer ul li a:hover{color:orange;}	
+@media(max-width:768px){.footer{display:none;}}
+.insidemenuback{
+	height:180px;
+	background-image:url("menupic/_1080660.jpg");background-image:cover;
+}
+.deliverlymenuback{
+	background-image:cover;
+	background-image:url("menupic/_1080660_2.jpg");
+	height:180px;
+}
+.insidemenutitle{
+	margin:0px auto auto auto;
+	font-size:3.5rem;
+	color:white;
+	font-family: 'Julius Sans One';
+}
+.insidemenup{
+	font-family: 'Julius Sans One';
+	color:white;
+	margin:0px auto auto auto;
+	;}
+.insidemenup::after,.insidemenup::before{
+	border-radius:3px;
+	margin:auto 20px auto auto;
+	vertical-align:5px;
+	display:inline-block;
+	background:white;
+	content:"";
+	height:1.5px;
+	width:200px;
+;}
+@media(max-width:768px){.insidemenup{font-size:0.7rem;}}
+@media(max-width:768px){.insidemenup:after,.insidemenup:before{display:none;}}
+.menucategory{
+	margin:0px auto 3px auto;
+	font-size:3rem;
+	font-family: 'Julius Sans One';
+	color:orange;
+	display:block;
+	background:#170028;}
+.menucategory2{
+	font-family: 'Julius Sans One';
+	display:block;
+	color:orange;
+	background:#170028;
+}
+.menucategory2 h1{
+	margin:12px auto 12px auto;
+	font-size:3rem;
+}
+@media(max-width:768px){.menucategory2 h1{font-size:1.3rem;}}
+
+.menucategory2 p{
+	padding-bottom:10px;
+	font-size:0.9rem;
+	margin:12px 10px 12px 10px;
+
+}
+.menucategory3{
+	margin:0px auto 3px auto;
+	font-size:2rem;
+	font-family: 'Julius Sans One';
+	color:orange;
+	display:block;
+	background:#170028;}
+.menucategory3::after,.menucategory3::before{
+	margin:auto 20px auto 20px;
+	vertical-align:10px;
+	border:1px solid orange;
+	height:1px;
+	width:100px;
+	display:inline-block;
+	content:"";
+}
+.menucategory4{
+	margin:0px auto 10px auto;
+	font-size:1rem;
+	font-family: 'Julius Sans One';
+	color:orange;
+	display:block;
+	background:#170028;
+}
+.menucategory4 h1{margin-bottom:0px;}
+.menucategory4 h1::after,.menucategory4 h1::before{
+	margin:auto 20px 0px 20px;
+	vertical-align:10px;
+	border:1px solid orange;
+	height:1px;
+	width:100px;
+	display:inline-block;
+	content:"";
+}
+.menucategory4 p{
+	padding-bottom:5px;
+	margin-top:0px;
+}			
+.itemwrapper1{padding:12px;}
+.itemwrapper2{padding:12px;}
+.itemwrapper3{padding:12px;}
+.itemwrapper4{padding:12px;}
+.itemwrapper5{padding:12px;}
+.itemwrapper6{padding:12px;}
+.itemwrapper7{padding:12px;}
+.itemwrapper8{padding:12px;}
+.itemwrapper9{padding:12px;}
+.itemwrapper10{padding:12px;}
+.itemwrapper11{padding:12px;}
+.itemwrapper12{padding:12px;}
+
+
+
+.item{
+	border-bottom:4px solid gray;
+	margin-bottom:10px;
+	position:relative;
+	font-family: 'Julius Sans One';
+	padding:8px;
+	background:white;
+	box-sizing:border-box;
+}
+.item::after{
+	right:0;
+	bottom:0;
+	position:absolute;
+	height:0;
+	width:0;
+	border:20px solid transparent;
+	border-right:20px solid gray;
+	border-bottom:20px solid gray;
+	display:block;
+	content:'';
+}
+.syouhinmei{margin:8px auto 0px;
+	display:block;
+}
+.syouhinmei::before,.syouhinmei::after{
+	border:2px solid gray;/*gray今だけ*/
+	transform:rotate(45deg);
+	vertical-align:-2px;
+	margin:0 15px;
+	display:inline-block;
+	background:white;
+	width:12px;
+	height:12px;
+	content:'';
+}
+.category-osusume .syouhinmei::before,.category-osusume .syouhinmei::after,.category-osusume{
+	border-color:#ff4747
+	;}
+.category-osusume::after{border-right-color:#ff4747;border-bottom-color:#ff4747;}	
+
+.description{
+	margin-top:6px;
+	display:block;
+	font-size:0.9rem;}
+.description span{color:red;}	
+.itemfotter{margin:10px 140px 2px auto;}	
+.itemfotter i,.itemfotter-m- i,.itemfotter-l- i{margin-right:10px;color:#276b35;}	
+.itemfotter-m-{
+	font-size:1.2rem;
+	margin:10px 330px 2px auto;
+}
+.itemfotter-l-{font-size:1.5rem;margin:10px 800px 2px auto;}
+.item-s-{
+	/*上のは今だけ*/
+	width:225px;
+}
+.itempic{
+	/*上のは今だけ*/
+	box-sizing:border-box;
+	width:100%;
+	display:block;
+
+
+}
+.item-m-{
+	/*上のは今だけ*/
+	width:462px;
+}
+.item-l-{
+	/*上のは今だけ*/
+	width:936px;
+
+}
+.itempic::before{
+	color:white;
+	content:"平日限定！";
+}
